@@ -1,0 +1,20 @@
+svg {
+  width: 100px;
+  height: 100px;
+  fill: #e2e2e5;
+  transition: 0.5s linear;
+}
+
+.icon-container:hover svg {
+  transform: rotate(90deg) scale(1, -1);
+  fill: #98c085;
+}
+
+.icon-container:hover svg #top {
+  transform: matrix(0.73564 0.677373 0.677373 -0.73564 1.11475 2.9126);
+}
+
+.icon-container:hover svg #bottom {
+  width: 2.5px;
+  transform: matrix(0.677373 -0.73564 -0.73564 -0.677373 2.9624 4.61426);
+}
