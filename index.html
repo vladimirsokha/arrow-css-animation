@@ -12,6 +12,7 @@
     <script type="module" src="script.js"></script>
   </head>
   <body>
+    <!--
     <div class="icon-container">
       <svg
         width="6"
@@ -33,6 +34,32 @@
           transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 4.65674 2.82861)"
         />
       </svg>
-    </div>
+    </div>-->
+    <div class="trigger" id="trigger"></div>
+    <svg
+      version="1.1"
+      id="tick"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      x="0px"
+      y="0px"
+      viewBox="0 0 37 37"
+      style="enable-background: new 0 0 37 37"
+      xml:space="preserve"
+    >
+      <polyline
+        class="tick path"
+        style="
+          fill: none;
+          stroke: #000;
+          stroke-width: 3;
+          stroke-linejoin: round;
+          stroke-miterlimit: 10;
+        "
+        points="
+	11.6,20 15.9,24.2 26.4,13.8 "
+      />
+    </svg>
+    <button id="goButton">go/reset</button>
   </body>
 </html>
